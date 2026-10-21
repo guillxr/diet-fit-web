@@ -1,0 +1,32 @@
+body, h2, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#navbar {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  background: gray;
+}
+
+#main {
+  display: flex;
+  height: 93.9vh;
+  background: rgb(173, 119, 119);
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  width: 95%;
+  height: 90%;
+  border-radius: 24px;
+  background: salmon;
+}
